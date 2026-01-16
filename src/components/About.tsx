@@ -43,10 +43,12 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <div className="bg-gradient-to-br from-cyan-400 to-purple-600 p-1 rounded-full w-64 h-64 mx-auto mb-8">
-              <div className="bg-gray-900 rounded-full w-full h-full flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span>
-              </div>
+            <div className="bg-gradient-to-br from-blue-400 to-purple-600 p-1 rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 hover:scale-105 transition-transform duration-300">
+              <img
+                src="/anaspot.jpeg"
+                alt="Mohammad Anas Kazi"
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
             <motion.a
               href="#contact"
