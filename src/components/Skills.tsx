@@ -61,7 +61,7 @@ const Skills = () => {
                     viewport={{ once: true }}
                     className="flex items-start space-x-3"
                   >
-                    <div className={`w-2 h-2 md:w-3 md:h-3 rounded-full bg-${category.color}-400 mt-1 md:mt-0 flex-shrink-0`}></div>
+                    <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-cyan-400 mt-1 md:mt-0 flex-shrink-0"></div>
                     <span className="text-gray-300 text-sm md:text-base leading-relaxed">{skill}</span>
                   </motion.div>
                 ))}
