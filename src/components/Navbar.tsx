@@ -25,9 +25,9 @@ const Navbar = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-xl font-bold text-purple-400"
+            className="text-lg md:text-xl font-bold text-purple-400"
           >
-            Mohammad Anas Kazi | Vibe Coder
+            <span className="hidden sm:inline">Mohammad Anas Kazi | </span>Vibe Coder
           </motion.div>
 
           <div className="hidden md:flex space-x-8">

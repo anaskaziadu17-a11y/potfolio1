@@ -29,16 +29,16 @@ const Hero = () => {
             initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-xl text-purple-400 font-medium"
+            className="text-base md:text-lg lg:text-xl text-purple-400 font-medium px-4"
           >
-            Google Student Ambassador | Social Media Manager – CodeFest 2K25 | Vibe Coder | Diploma Computer Engineering Student | Tech & AI Enthusiast
+            Google Student Ambassador | AI Enthusiast | Tech Innovator
           </motion.p>
 
           <motion.p
             initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto"
+            className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-4xl mx-auto px-4"
           >
             Turning curiosity into code, and ideas into impact. A Gen-Z innovator bridging AI, technology, and community to shape the future.
           </motion.p>
