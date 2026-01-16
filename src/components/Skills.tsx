@@ -40,7 +40,7 @@ const Skills = () => {
           <div className="w-24 h-1 bg-cyan-400 mx-auto mb-8"></div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {skillCategories.map((category, index) => (
             <motion.div
               key={index}
@@ -62,7 +62,7 @@ const Skills = () => {
                     className="flex items-start space-x-3"
                   >
                     <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-cyan-400 mt-1 md:mt-0 flex-shrink-0"></div>
-                    <span className="text-gray-300 text-sm md:text-base leading-relaxed">{skill}</span>
+                    <span className="text-gray-300 text-sm md:text-base leading-relaxed break-words">{skill}</span>
                   </motion.div>
                 ))}
               </div>
