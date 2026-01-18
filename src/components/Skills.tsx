@@ -17,12 +17,12 @@ const Skills = () => {
     {
       title: 'Leadership & Soft Skills',
       skills: ['Team Collaboration', 'Event Organization', 'Public Speaking', 'Problem Solving'],
-      color: 'blue'
+      color: 'purple'
     },
     {
       title: 'Tools & Platforms',
       skills: ['Google Workspace', 'Social Media Platforms', 'Learning Management Systems', 'Creative Tools'],
-      color: 'green'
+      color: 'orange'
     }
   ];
 
