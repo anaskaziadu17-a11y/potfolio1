@@ -92,10 +92,16 @@ const Hero = () => {
             >
               Hire Me
             </motion.a>
+
+            
           </motion.div>
         </motion.div>
 
-        <motion.div
+
+
+        {/* bottom arrow */}
+
+        {/* <motion.div
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.5 }}
@@ -109,6 +115,11 @@ const Hero = () => {
             <ChevronDown size={32} />
           </motion.div>
         </motion.div>
+
+
+ */}
+
+
       </div>
     </section>
   );
